@@ -6,7 +6,8 @@
 }
 
 :root{
-    /*Here insert css variables*/
+    --header-color:hsl(223, 47%, 23%);
+    --small-text-color: hsl(224, 23%, 55%);
 }
 *{
     font-family: 'Red Hat Display', sans-serif;
@@ -26,11 +27,22 @@ article{
 .order-title{
     text-align: center;
     margin-block-end: 1rem;
+    font-size:1.21rem;
+    font-weight: 900;
+    margin-block-start: 1.5rem;
+    color:var(--header-color);
+    text-shadow: 0px 0px 1px var(--header-color);
+    line-height: 1.5rem;
 }
 .order-desc{
-    padding-inline: 2rem;
     text-align: center;
     margin-block-end: 1rem;
+    font-size: .85rem;
+    color: var(--small-text-color);
+    width: 60%;
+    margin-inline:auto ;
+    line-height: 1.5rem;
+    text-shadow: 0px 0px .9px var(--small-text-color);
 }
 .order-plan{
     margin-block-end: 1rem;
@@ -39,9 +51,10 @@ article{
     width: 80%;
     margin-inline: auto;
     align-items: center;
-    background-color: ;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
 }
-
+.order-plan 
 
 
 @media screen and (min-width: 578px) {
