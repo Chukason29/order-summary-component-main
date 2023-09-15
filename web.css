@@ -20,6 +20,7 @@ article{
 .order-details{
     width:100%;
     margin-block: 1rem;
+    border-radius: 0px;
 }
 .order-image img{
     max-width: 100%;
@@ -48,13 +49,51 @@ article{
     margin-block-end: 1rem;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 85%;
     margin-inline: auto;
     align-items: center;
     background-color: hsl(225, 100%, 98%);
-    padding: 1rem;
+    padding: .9rem;
+    justify-content: space-between;
+    border-radius: 10px;
 }
-.order-plan 
+.audio-plan{
+    display: flex;
+    align-items: center;
+}
+.order-plan .plan-amount{
+    margin-inline-start: 1rem;
+}
+.order-plan .plan-amount > p:first-child{
+    font-size: .9rem;
+    font-weight: 900;
+    color: var(--header-color);
+    text-shadow: 0px 0px .9px var(--header-color);
+}
+.order-plan .plan-amount > p:last-child{
+    font-size: .9rem;
+    color: var(--small-text-color)
+}
+.order-details button{
+    width: 85%;
+    display: block;
+    padding-block: .7rem;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: #ffffff;
+    margin: 1.85rem auto;
+    font-size: .95rem;
+    border-radius: 8px;
+    box-shadow: 0px 20px 20px rgba(56, 41, 224, .2);
+}
+.cancel-order{
+    display: block;
+    text-align: center;
+    color: var(--small-text-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
 
 
 @media screen and (min-width: 578px) {
