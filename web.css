@@ -1,0 +1,58 @@
+/* This is the standard css layout*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*Here insert css variables*/
+}
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+article{
+    width:375px;
+    margin-inline: auto;
+}
+.order-details{
+    width:100%;
+    margin-block: 1rem;
+}
+.order-image img{
+    max-width: 100%;
+}
+.order-title{
+    text-align: center;
+    margin-block-end: 1rem;
+}
+.order-desc{
+    padding-inline: 2rem;
+    text-align: center;
+    margin-block-end: 1rem;
+}
+.order-plan{
+    margin-block-end: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-inline: auto;
+    align-items: center;
+    background-color: ;
+}
+
+
+
+@media screen and (min-width: 578px) {
+    
+}
+@media screen and (min-width: 769px) {
+    
+}
+@media screen and (min-width: 1178px) {
+
+}
+@media screen and (min-width: 1201px) {
+    
+}
