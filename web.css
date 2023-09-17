@@ -95,6 +95,9 @@ main article{
     font-size: .9rem;
     color: var(--small-text-color)
 }
+.plan-change a:hover{
+    color: hsla(245, 75%, 52%, .6);
+}
 .order-details button{
     width: 85%;
     display: block;
@@ -118,6 +121,10 @@ main article{
     text-decoration: none;
     font-weight: 700;
 }
+.cancel-order:hover{
+    color:var(--header-color);
+    text-shadow: 0px 0px 1px var(--header-color);
+}
 
 
 
@@ -131,7 +138,7 @@ main article{
         width: 100%;
         margin-inline: auto;
         position: absolute;
-        top:0;
+        top:-120px;
         z-index: -1;
     }
     .mobile-svg{
