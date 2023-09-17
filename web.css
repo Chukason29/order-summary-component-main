@@ -106,6 +106,10 @@ main article{
     font-size: .95rem;
     border-radius: 8px;
     box-shadow: 0px 20px 20px rgba(56, 41, 224, .2);
+    cursor: pointer;
+}
+.order-details button:hover{
+    background-color: hsla(245, 75%, 52%, .6);
 }
 .cancel-order{
     display: block;
