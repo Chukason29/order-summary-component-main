@@ -12,25 +12,46 @@
 *{
     font-family: 'Red Hat Display', sans-serif;
 }
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+main{
+    
+    padding-block: 2rem;
+    width:100%;
+}
+main .desktop-svg{
+    width: 100%;
+    display: none;
+}
+.mobile-svg{
+    width: 100%;
+    margin-inline: auto;
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
 
-article{
+main article{
     width:375px;
     margin-inline: auto;
+    border-radius:22px;
+    background-color:#ffffff;
+    z-index: 99;
 }
 .order-details{
     width:100%;
-    margin-block: 1rem;
-    border-radius: 0px;
+    padding-block: 1.5rem;
 }
 .order-image img{
     max-width: 100%;
+    border-radius: 22px 22px 0px 0px;
 }
 .order-title{
     text-align: center;
     margin-block-end: 1rem;
     font-size:1.21rem;
     font-weight: 900;
-    margin-block-start: 1.5rem;
     color:var(--header-color);
     text-shadow: 0px 0px 1px var(--header-color);
     line-height: 1.5rem;
@@ -40,7 +61,7 @@ article{
     margin-block-end: 1rem;
     font-size: .85rem;
     color: var(--small-text-color);
-    width: 60%;
+    width: 62%;
     margin-inline:auto ;
     line-height: 1.5rem;
     text-shadow: 0px 0px .9px var(--small-text-color);
@@ -100,7 +121,18 @@ article{
     
 }
 @media screen and (min-width: 769px) {
-    
+    main .desktop-svg{
+        width: 100%;
+        display: block;
+        width: 100%;
+        margin-inline: auto;
+        position: absolute;
+        top:0;
+        z-index: -1;
+    }
+    .mobile-svg{
+        display: none;
+    }
 }
 @media screen and (min-width: 1178px) {
 
